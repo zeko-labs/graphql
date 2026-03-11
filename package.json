@@ -1,0 +1,39 @@
+{
+	"name": "@zeko-labs/graphql",
+	"version": "0.0.1",
+	"description": "Shared GraphQL documents and generated types for Zeko services and SDKs.",
+	"type": "module",
+	"keywords": [
+		"typescript",
+		"library"
+	],
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"files": [
+		"dist"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/zeko-labs/graphql.git"
+	},
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": "./dist/index.js",
+		"./leaderboard": "./dist/leaderboard.js",
+		"./mina": "./dist/mina.js",
+		"./mina-archive": "./dist/mina-archive.js",
+		"./zeko": "./dist/zeko.js",
+		"./zeko-archive": "./dist/zeko-archive.js",
+		"./*": "./*"
+	},
+	"devDependencies": {
+		"gql.tada": "1.8.13",
+		"tsdown": "0.13.4",
+		"typescript": "5.9.2"
+	},
+	"packageManager": "pnpm@10.16.1"
+}
