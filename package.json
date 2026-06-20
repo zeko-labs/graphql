@@ -1,0 +1,5 @@
+{
+	"name": "@zeko-labs/graphql-source",
+	"private": true,
+	"packageManager": "pnpm@10.16.1"
+}
